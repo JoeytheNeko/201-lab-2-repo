@@ -20,3 +20,5 @@ if (shame === 'no'){
 } var challenge =prompt('you cannot deny my challenge have at thee');
 if (challenge === 'no')
 alert('get back here and fight!');
+
+for( var index = 0; index < 10; index++);
