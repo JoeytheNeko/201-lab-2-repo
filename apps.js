@@ -21,4 +21,35 @@ if (shame === 'no'){
 if (challenge === 'no')
 alert('get back here and fight!');
 
-for( var index = 0; index < 10; index++);
+var aftermath =prompt('that was a good match, will you try to enjoy chocolates now?');
+
+
+for( var index = 0; index < 5; index++) {
+    if (aftermath === 'no') {
+        alert('argh do we have to fight again?');
+    break;}
+    if (aftermath === 'yes'){
+        alert('yay lets be friends now.')
+
+        break;
+    }
+  //  alert ()
+}
+var finale =prompt('so I guess this is the end?')
+    if (finale === 'no') {
+alert ('what more do you want?')} 
+    if (finale === 'yes'){
+        alert('see ya next time');
+    }
+
+    for(var index=0; index <4; index++) {
+
+    var finale =prompt('so I guess this is the end?')
+    if (finale === 'no') {
+alert ('what more do you want?')
+break;} 
+    if (finale === 'yes'){
+    alert('see ya next time');
+    break;
+    }
+}
